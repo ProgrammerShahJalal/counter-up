@@ -8,9 +8,7 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background: lightskyblue
-		url('https://i.pinimg.com/originals/3c/24/46/3c24462450c2a902bf7e18f3d9aada81.jpg');
-	color: #fff;
+	color: black;
 	/* Push to bottom */
 	display: flex;
 	flex-direction: column;
@@ -19,28 +17,44 @@ body {
 }
 
 .container {
-	max-width: 1100px;
+	max-width: 100%;
 	margin: 0 auto;
 	overflow: auto;
 }
-
-header {
-	flex: 1;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.counter-box-1{
+    color: white;
+    background-color: #8007e6;
+    padding: 15px 0px;
+    border-radius: 25px;
 }
-
-header h1 {
-	font-size: 60px;
+.counter-box-2{
+    color: white;
+    background-color: coral;
+    padding: 15px 0px;
+    border-radius: 25px;
+}
+.counter-box-3{
+    color: white;
+    background-color: #2a9d8f;
+    padding: 15px 0px;
+    border-radius: 25px;
+}
+.counter-box-4{
+    color: white;
+    background-color: darkblue;
+    padding: 15px 0px;
+    border-radius: 25px;
 }
 
 .counters {
-	background: #0f479a;
-	color: #fff;
+	color: black;
 	padding: 40px 20px;
-	border-top: 3px lightskyblue solid;
+    margin: auto 35px;
+}
+.counters h1 {
+	font-size: 55px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 .counters .container {
@@ -51,7 +65,7 @@ header h1 {
 }
 
 .counters i {
-	color: lightskyblue;
+	color: white;
 	margin-bottom: 5px;
 }
 
@@ -67,7 +81,6 @@ header h1 {
 
 	.counters .container > div:nth-of-type(1),
 	.counters .container > div:nth-of-type(2) {
-		border-bottom: 1px lightskyblue solid;
 		padding-bottom: 20px;
 	}
 }
