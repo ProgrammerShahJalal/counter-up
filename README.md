@@ -3,7 +3,4 @@ Counter Up Using HTML, CSS, JavaScript
 
 ## Live Site Link: https://programmershahjalal.github.io/counter-up/
 
-
-https://user-images.githubusercontent.com/79104097/136149524-5ed8d294-b2c5-48d1-bf61-1b198dd307f8.mp4
-
-
+https://user-images.githubusercontent.com/79104097/136150217-456e27a2-dd78-4263-a632-cafbe8c7f816.mp4
