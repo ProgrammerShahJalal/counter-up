@@ -22,25 +22,25 @@ body {
 .counter-box-1{
     color: white;
     background-color: #8007e6;
-    padding: 15px 0px;
+    padding: 45px 0px;
     border-radius: 25px;
 }
 .counter-box-2{
     color: white;
     background-color: coral;
-    padding: 15px 0px;
+    padding: 45px 0px;
     border-radius: 25px;
 }
 .counter-box-3{
     color: white;
     background-color: #2a9d8f;
-    padding: 15px 0px;
+    padding: 45px 0px;
     border-radius: 25px;
 }
 .counter-box-4{
     color: white;
     background-color: darkblue;
-    padding: 15px 0px;
+    padding: 45px 0px;
     border-radius: 25px;
 }
 
@@ -49,9 +49,13 @@ body {
     margin: auto 100px;
 }
 .counters h1 {
-	font-size: 55px;
+	font-size: 50px;
     text-align: center;
     margin-bottom: 15px;
+}
+.counters h3{
+	font-size: 18px;
+	font-weight: 100;
 }
 
 .counters .container {
@@ -67,7 +71,7 @@ body {
 }
 
 .counters .counter {
-	font-size: 45px;
+	font-size: 35px;
 	margin: 10px 0;
 }
 .over{
@@ -76,7 +80,6 @@ body {
 	align-items: center;
 }
 .multiplus{
-	display: inline-flex;
 	font-size: 35px;
 }
 
