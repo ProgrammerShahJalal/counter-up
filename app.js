@@ -9,13 +9,10 @@ counters.forEach(counter => {
         // Lower inc to slow and higher to slow
         const inc = target / speed;
 
-        // console.log(inc);
-        // console.log(count);
-
         // Check if target is reached
         if (count < target) {
             // Add inc to count and output in counter
-            counter.innerText = count + inc;
+            counter.innerText = (count + inc).toFixed(0);
             // Call function every ms
             setTimeout(updateCount, 1);
         } else {
